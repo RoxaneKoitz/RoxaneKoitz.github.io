@@ -1,0 +1,68 @@
+/***** GENERAL ***************************/
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: "Verdana", sans-serif;
+  font-weight: bold;
+}
+
+p {
+  font-family: "Georgia", serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+/******* LANDING ************************/
+
+body#landing{
+  background-color: rgb(120,120,120);
+}
+
+body#landing a{
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  font-size:4vw;
+}
+
+div.flexbox-container-landing {
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+
+div.flexbox-container-landing > div {
+  text-align:center;
+  width: 20%;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+}
+
+/*****************About***********************/
+header {
+  padding: 20px;
+  background-image: url("media/abstract_gray.png");
+  text-align: center;
+}
+
+img#mypic{
+  float: right;
+  max-width: 200px;
+  width:100%;
+  margin-right: 20px;
+  border: 2px solid gray;
+}
+
+.clearfix::after{
+  content: "";
+  clear: both;
+  display: table;
+}
